@@ -37,14 +37,10 @@ Hello, World!
 python3 -m unittest discover -s tests -v
 ```
 
-## GitHub 发布
+## GitHub 仓库
 
-在 GitHub 网页中新建空仓库后执行：
+项目已发布至：
 
-```bash
-git remote add origin https://github.com/<你的用户名>/software-engineering-experiment-1.git
-git branch -M main
-git push -u origin main
-```
+<https://github.com/Aqua196/software-engineering-experiment-1>
 
-请将 `<你的用户名>` 替换为自己的 GitHub 用户名。不要把密码或访问令牌写入项目文件。
+本地仓库已配置同名 `origin` 远程地址。提交或推送时不要把密码、访问令牌等敏感信息写入项目文件。
